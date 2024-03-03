@@ -1,4 +1,4 @@
-import { Card, CardHeader } from "@material-tailwind/react";
+import { Card, CardBody, CardHeader } from "@material-tailwind/react";
 import React from "react";
 
 const Projects = () => {
@@ -10,6 +10,7 @@ const Projects = () => {
           alt="card-image"
         />
       </CardHeader>
+      <CardBody></CardBody>
     </Card>
   );
 };
