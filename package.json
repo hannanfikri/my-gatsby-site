@@ -19,6 +19,7 @@
     "autoprefixer": "^10.4.18",
     "bootstrap": "^5.3.3",
     "gatsby": "^5.13.3",
+    "gatsby-plugin-layout": "^4.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
