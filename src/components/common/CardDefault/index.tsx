@@ -1,16 +1,29 @@
-import { Card, CardHeader } from "@material-tailwind/react";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Typography,
+} from "@material-tailwind/react";
 import React from "react";
 
-type Props = {};
+type Props = {
+  child: string;
+  context: string;
+};
 
-export default function CardDefault(): Props {
+const CardDefault = (props: Props) => {
   return (
     <>
       <Card className="m-3">
         <CardHeader>
-          <div>aaa</div>
+          <Typography>{props.child}</Typography>
         </CardHeader>
+        <CardBody>
+          <Typography>{props.context}</Typography>
+        </CardBody>
       </Card>
     </>
   );
-}
+};
+
+export default CardDefault;
