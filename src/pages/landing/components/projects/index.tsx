@@ -1,7 +1,7 @@
 import { Card, CardBody, CardHeader } from "@material-tailwind/react";
 import React from "react";
 
-const Projects = () => {
+const Projects: React.FC = () => {
   return (
     <Card className="mt-6 w-96">
       <CardHeader>
