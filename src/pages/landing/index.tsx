@@ -2,7 +2,11 @@ import React from "react";
 import Projects from "./components/projects";
 
 const Landing = () => {
-  <Projects />;
+  return (
+    <>
+      <Projects />;
+    </>
+  );
 };
 
 export default Landing;
