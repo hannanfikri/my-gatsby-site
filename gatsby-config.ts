@@ -10,7 +10,7 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: ["gatsby-plugin-postcss", {resolve: `gatsby-plugin-layout`, options: {
-    component: require.resolve(`./relative/path/to/layout/component`),
+    component: require.resolve(`./src/components/layout/Layout.tsx`),
   }}]
 };
 

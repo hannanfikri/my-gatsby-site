@@ -14,7 +14,7 @@ type Props = {
 const CardDefault = (props: Props) => {
   return (
     <>
-      <Card className="m-3">
+      <Card className="shadow m-3">
         <CardHeader>
           <Typography>{props.child}</Typography>
         </CardHeader>
